@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+  --color-warm-canvas: #fbf7ee;
+  --color-warm-card: #ffffff;
+  --color-warm-sand: #f5eedd;
+  --color-warm-border: #ede3cf;
+  --color-solar-amber: #f59e0b;
+  --color-solar-gold: #fbbf24;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fbf7ee;
+  color: #111827;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+.amber-glow {
+  box-shadow: 0 4px 20px -2px rgba(217, 119, 6, 0.35), 0 2px 8px -2px rgba(180, 83, 9, 0.25);
+}
+.amber-glow:hover {
+  box-shadow: 0 6px 26px 0px rgba(217, 119, 6, 0.48), 0 3px 12px -1px rgba(180, 83, 9, 0.32);
+}
+
+.soft-card-shadow {
+  box-shadow: 0 4px 24px -2px rgba(133, 105, 50, 0.06), 0 1px 4px 0 rgba(0, 0, 0, 0.02);
+}
+
+.soft-card-shadow-hover:hover {
+  box-shadow: 0 12px 32px -4px rgba(133, 105, 50, 0.1), 0 2px 8px -2px rgba(0, 0, 0, 0.04);
+}

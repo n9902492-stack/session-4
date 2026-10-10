@@ -1,0 +1,12 @@
+{
+  "name": "Meeting OS",
+  "description": "A clean-room meeting operating system combining real-time collaboration, scheduled runs of show, secure screen sharing, real-time recording, interactive whiteboard, and transparent Rupee pricing.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "display-capture"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
